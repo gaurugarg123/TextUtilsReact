@@ -27,57 +27,17 @@ function App() {
     if (mode === 'light') {
       setMode('dark');
       document.body.style.backgroundColor = '#4d509b'
-      showAlert("Dark mode has been enabled", "success")
-      document.title = "TextUtils - Dark Mode"
+      // showAlert("Dark mode has been enabled", "success")
+      // document.title = "TextUtils - Dark Mode"
       // setBtnText("Enable LightMode")
     }
     else if (mode === 'dark') {
       setMode('light');
       // setBtnText("Enable DarkMode")
       document.body.style.backgroundColor = '#fff'
-      showAlert("Light mode has been enabled", "success")
-      document.title = "TextUtils - Light Mode"
+      // showAlert("Light mode has been enabled", "success")
+      // document.title = "TextUtils - Light Mode"
     }
-  //   else if (mode === 'green') {
-  //     setMode('blue');
-  //     document.body.style.backgroundColor = 'rgb(73 39 195)'
-  //     showAlert("Blue theme has been enabled", "success")
-  //     // setBtnText("Enable LightMode")
-  //   }
-  //   else if (mode === 'blue') {
-  //     setMode('green');
-  //     // setBtnText("Enable DarkMode")
-  //     document.body.style.backgroundColor = 'rgb(28 144 131)'
-  //     showAlert("Green theme has been enabled", "success")
-  //   }
-  // }
-  // const backChange = () => {
-  //   if (bg === 'light') {
-  //     setbg('dark');
-  //     document.body.style.backgroundColor = '#4d509b'
-  //     showAlert("Dark mode has been enabled", "success")
-  //     // setBtnText("Enable LightMode")
-  //   }
-  //   else if (bg === 'dark') {
-  //     setbg('light');
-  //     // setBtnText("Enable DarkMode")
-  //     document.body.style.backgroundColor = '#fff'
-  //     showAlert("Light mode has been enabled", "success")
-  //   }
-  //   else if (bg === 'green') {
-  //     setbg('blue');
-  //     document.body.style.backgroundColor = 'rgb(735 39 195)'
-  //     showAlert("Blue theme has been enabled", "success")
-  //     // setBtnText("Enable LightMode")
-  //   }
-  //   else if (bg === 'blue') {
-  //     setMode('green');
-  //     // setBtnText("Enable DarkMode")
-  //     document.body.style.backgroundColor = 'rgb(28 144 131)'
-  //     showAlert("Green theme has been enabled", "success")
-
-
-  //   }
   }
   return (
     <Router>
